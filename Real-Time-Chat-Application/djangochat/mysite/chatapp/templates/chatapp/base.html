@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+
+            <!-- Logo + App Name -->
+            <div class="flex items-center gap-3">
+            <img src="{% static 'chatapp/mail.jpg' %}" class="h-10 w-10" alt="logo">
+                <span class="text-2xl font-semibold text-gray-800">
+                    Chat App
+                </span>
+            </div>
+
+            <!-- Menu -->
+            <div class="flex gap-6 text-gray-700 font-medium">
+                <a href="/rooms/" class="shadow-lg bg-blue-900 text-white rounded">Rooms</a>
+                <a href="/about/" class="hover:text-blue-600">About</a>
+            </div>
+
+        </div>
+    </nav>
+
+    {% block body %}
+    {% endblock %}
+
+</body>
+</html>

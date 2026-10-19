@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv_old/
+env/
+venv/
+ENV/
+djangochat/env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite3
+*.db
+
+# Django generated files
+staticfiles/
+media/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

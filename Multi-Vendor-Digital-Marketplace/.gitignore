@@ -1,0 +1,72 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+.venv311/
+.venv313/
+env/
+venv/
+ENV/
+
+# ==============================
+# Django
+# ==============================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# ==============================
+# User Uploaded Files
+# ==============================
+backend/mysite/uploads/
+
+# ==============================
+# Environment Variables and Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
+*.iml
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Testing and Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Build and Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
